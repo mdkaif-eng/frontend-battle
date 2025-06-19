@@ -1,1 +1,2 @@
 # frontend-battle
+This is a simple interactive web page built using HTML, CSS, and JavaScript. It includes several features such as a loading animation, smooth scrolling, a ripple effect button, a parallax background section, and a scroll-triggered popup message. The page also displays a basic bar graph using the <canvas> element and showcases testimonials in a styled layout. The project is designed to demonstrate essential front-end web development concepts in a beginner-friendly and visually appealing way.
