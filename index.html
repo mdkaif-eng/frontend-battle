@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loader with video -->
+<div id="loader">
+  <video autoplay muted loop id="loaderVideo">
+    <source src="./Assets/loader.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<!--parallax animation-->
+<div class="parallax-container" id="Parallax">
+   <video autoplay muted loop id="loaderVideo">
+    <source src="./Assets/parallax animation.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="parallax-background" style="background-image: url('your-image-url.jpg');"></div>
+  <div class="content">
+    <h1>Parallax Effect</h1>
+  </div>
+</div>
+
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#show">Show</a>
+    <a href="#graph">Graph</a>
+    <a href="#testimonials">Testimonials</a>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+   <video autoplay muted loop id="loaderVideo">
+    <source src="./Assets/homepage.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video> 
+    <h1>Home - Parallax</h1>
+  </section>
+
+  <!-- Show / Work / State Section -->
+  <section id="show">
+    <video autoplay muted loop id="loaderVideo">
+    <source src="./Assets/showcase work.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+    <h2>Show / Work / State</h2>
+    <p>This section shows content.</p>
+    <button class="ripple-btn">Ripple Button</button>
+  </section>
+
+  <!-- Graph Section -->
+  <section id="graph">
+    <img src="./Assets/graph.png">
+    <h2>Graph</h2>
+    <canvas id="barChart" width="300" height="150"></canvas>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <video autoplay muted loop id="loaderVideo">
+    <source src="./Assets/testimonials.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+    <h2>Testimonials</h2>
+    <div class="testimonial">"Awesome work!"</div>
+    <div class="testimonial">"Very simple and nice."</div>
+
+  </section>
+
+  <!-- Popup -->
+  <div id="popup">Hello! You scrolled the page 🎉</div>
+   <h2>Scroll Down Page</h2>
+  <p>This is a long page. Scroll and click below to see video popup.</p>
+
+  
+    <summary style="cursor:pointer;">🎬 Watch Video</summary>
+    <video width="300" controls>
+      <source src="./Assets/scroll and pop up.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </details>
+
+
+
+
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
